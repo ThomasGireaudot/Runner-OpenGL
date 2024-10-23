@@ -1,0 +1,6 @@
+git submodule update --init --recursive
+
+
+fedora :
+sudo dnf install mesa-libGL-devel mesa-libGLU-devel libX11-devel libXi-devel libXcursor-devel libXrandr-devel libXinerama-devel
+sudo dnf install wayland-devel wayland-protocols-devel libxkbcommon libxkbcommon-devel
